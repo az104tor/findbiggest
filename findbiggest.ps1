@@ -1,3 +1,7 @@
+# psys.ps1 - Unified system & network monitor for Windows
+# Author: Salvatore Cristaudo
+# Copyright (c) 2026 - MIT License
+# Link: https://github.com/az104tor/findbiggest
 <#
 .SYNOPSIS
     Finds the top N largest files in a directory (defaults to the current user's
