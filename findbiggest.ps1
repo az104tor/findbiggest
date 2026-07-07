@@ -1,4 +1,4 @@
-# psys.ps1 - Unified system & network monitor for Windows
+# findbiggets.ps1 — Finding Your Biggest Files Fast with PowerShell
 # Author: Salvatore Cristaudo
 # Copyright (c) 2026 - MIT License
 # Link: https://github.com/az104tor/findbiggest
