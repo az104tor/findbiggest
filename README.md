@@ -22,22 +22,22 @@ Built to be fast on large folder trees by using `robocopy` in list-only mode ins
 
 Clone the repo or just download the script directly:
 
-git clone https://github.com/az104tor/findbiggets.git
+git clone https://github.com/az104tor/findbiggest.git
 cd findbiggets
 
 
-Or download `Find-LargestFiles.ps1` on its own and save it anywhere.
+Or download `findbiggest.ps1` on its own and save it anywhere.
 
 ## Usage
 
 Run with no arguments to scan your user profile folder and report the top 10 largest files:
 
-.\findbiggets.ps1
+.\findbiggest.ps1
 
 
 Scan a specific folder or drive, change how many results to return, and set a custom output location:
 
-.\findbiggets.ps1 -Path "D:\Projects" -Top 20 -OutputFile "D:\big-files-report.txt"
+.\findbiggest.ps1 -Path "D:\Projects" -Top 20 -OutputFile "D:\big-files-report.txt"
 
 > **Note:** If your system blocks unsigned scripts, run PowerShell as Administrator and allow the script for the current session:
 > Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
